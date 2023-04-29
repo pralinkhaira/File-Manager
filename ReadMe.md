@@ -68,4 +68,4 @@ If you find any issues or have ideas for new features, feel free to open an issu
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.txt file for details.
+This project is licensed under the GNU License - see the LICENSE.txt file for details.
