@@ -1,0 +1,37 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2023 BitH0kxer
+
+Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.
+
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+0. Definitions.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by this document.
+"Copyright Holder" shall mean the individual(s) or entity(ies) that created the software.
+"Contributor" shall mean the individual(s) or entity(ies) that have contributed to the software.
+
+1. Source Code.
+The "source code" for a work means the preferred form of the work for making modifications to it. For a CLI application, the source code includes the source code for any libraries and dependencies it links to.
+
+2. Basic Permissions.
+All distribution of the software, modified or unmodified, must include a copy of this license. The software must be accompanied by the source code or a written offer to provide the source code for up to three years after distribution.
+
+3. Copyleft.
+Any derivative work created using the software must be released under the same license terms as the original software. Modifications made to the software must be clearly marked and documented.
+
+4. Patent Rights.
+You agree not to use any patents held by the Copyright Holder to sue anyone for infringement of the software license.
+
+5. No Warranty.
+The software is provided without warranty of any kind, either expressed or implied.
+
+6. Limitation of Liability.
+In no event shall the Copyright Holder be liable for any damages, including but not limited to direct, indirect, special, incidental, or consequential damages arising from the use, misuse, or inability to use the software.
+
+7. Termination.
+The license terminates automatically if you violate any of the license terms.
+
+8. Acceptance.
+By using or distributing the software, you accept and agree to the terms of this license.
+
