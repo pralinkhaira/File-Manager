@@ -1,71 +1,60 @@
-# File Management CLI using Python
+# File Management CLI
 
-This is a simple command-line interface (CLI) tool to perform basic file management operations using Python. The tool allows you to perform various file operations such as creating, deleting, renaming, and copying files and directories.
+This is a command-line interface (CLI) application for performing file management tasks such as creating, deleting, renaming, and copying files and directories. It is built using Python's built-in `os` module for file management tasks, and `argparse` for parsing command-line arguments.
 
-## Requirements
+## Getting Started
 
-- Python 3.6 or higher
-
-## Installation
-
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/file-manager.git
-```
-
-2. Navigate to the project directory:
-
-```
-cd file-manager
-```
-
-3. Install the required packages:
-
-```
-pip install -r requirements.txt
-```
-
-4. Run the tool:
-
-```
-python file_manager.py
-```
+1. Clone this repository: `git clone https://github.com/BitH0xker/File-Manager.git`
+3. Run the CLI application: `python File_Manager.py [command] [path] [options]`
 
 ## Usage
 
-Here's a brief explanation of what each command and subcommand will do:
+The CLI application supports the following commands:
 
-**create file <path>**: creates a new file at the specified path.
+### Create
 
-**create directory <path>**: creates a new directory at the specified path.
+Create a new file or directory.
 
-**delete file <path>
-delete directory <path> -r
-rename <path> <newname>
-copy <path> <destination>**: deletes the file at the specified path.
+```
+python File_Manager.py create [type] [path]
+```
 
-**delete file <path>
-delete directory <path> -r
-rename <path> <newname>
-copy <path> <destination>**: deletes the directory and its contents recursively.
+- `type` (required): The type of file to create. Valid values are `file` and `directory`.
+- `path` (required): The path to the file or directory to create.
 
-**delete file <path>
-delete directory <path> -r
-rename <path> <newname>
-copy <path> <destination>**: renames the file or directory at the specified path to the new name.
+### Delete
 
-**delete file <path>
-delete directory <path> -r
-rename <path> <newname>
-copy <path> <destination>**: copies the file or directory at the specified path to the destination directory. If the source path is a directory, the contents of the directory will be copied recursively.
+Delete a file or directory.
 
-The program will output a message indicating whether the file management task was completed successfully.
+```
+python File_Manager.py delete [path] [--recursive]
+```
 
-## Contributing
+- `path` (required): The path to the file or directory to delete.
+- `--recursive` (optional): Delete directory and its contents recursively.
 
-If you find any issues or have ideas for new features, feel free to open an issue or submit a pull request.
+### Rename
+
+Rename a file or directory.
+
+```
+python File_Manager.py rename [path] [newname]
+```
+
+- `path` (required): The path to the file or directory to rename.
+- `newname` (required): The new name for the file or directory.
+
+### Copy
+
+Copy a file or directory.
+
+```
+python File_Manager.py copy [path] [destination]
+```
+
+- `path` (required): The path to the file or directory to copy.
+- `destination` (required): The destination directory to copy the file or directory to.
 
 ## License
 
-This project is licensed under the GNU License - see the LICENSE.txt file for details.
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
