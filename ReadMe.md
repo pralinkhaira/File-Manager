@@ -58,3 +58,18 @@ python File_Manager.py copy [path] [destination]
 ## License
 
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
+
+## Update Notes
+
+Update v1.1 (27 May 2023)
+
+- Error handling: Added try-except blocks to handle exceptions and display error messages.
+- Input validation: Additional input validation can be added to check file or directory existence before performing operations.
+- User prompts and confirmation: Implement prompts using the input() function to confirm potentially destructive operations.
+- Additional functionality: The code supports create, delete, rename, and copy tasks, but can be expanded for more functionality.
+- Documentation and help messages: Existing help messages provide usage information, which can be enhanced with additional descriptions and examples.
+- Unit tests: Functions can be tested individually to ensure correctness and handle different scenarios.
+- Code structure and modularity: File management tasks are encapsulated in separate functions for modularity and reusability.
+- Logging: Logging module is used to provide informative log messages.
+- Compatibility and platform independence: Code uses built-in functions and `os.path` module for compatibility across platforms.
+- User experience improvements: Logging and customized messages improve user feedback and experience.
