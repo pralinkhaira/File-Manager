@@ -4,7 +4,7 @@ This is a command-line interface (CLI) application for performing file managemen
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/BitH0xker/File-Manager.git`
+1. Clone this repository: `git clone https://github.com/PralinKhaira/File-Manager.git`
 3. Run the CLI application: `python File_Manager.py [command] [path] [options]`
 
 ## Usage
